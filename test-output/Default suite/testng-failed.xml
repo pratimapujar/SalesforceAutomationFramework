@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.salesforce.automationScripts.TestScripts">
+        <methods>
+          <include name="leadDropDownTC23"/>
+          <include name="myContactsViewTC28"/>
+          <include name="createNewContactTC25"/>
+          <include name="createAccountReportTC14"/>
+          <include name="editViewTC12"/>
+          <include name="testOpportunityPipeLineReportTC17"/>
+          <include name="setupBeforeTest"/>
+          <include name="mergeAccountTC13"/>
+          <include name="loginSuccessTC2"/>
+          <include name="opporDropDownTC15"/>
+          <include name="beforeMethod1"/>
+          <include name="createOpportunityTC16"/>
+          <include name="afterTest"/>
+          <include name="defaultViewTC22"/>
+          <include name="verifyRecentlyCreatedContactPageTC27"/>
+          <include name="testQuarterlySummaryReportTC19"/>
+          <include name="viewContactTC29"/>
+          <include name="selectMyProfileTC6"/>
+          <include name="afterMethod"/>
+          <include name="createAccountTC10"/>
+        </methods>
+      </class> <!-- com.salesforce.automationScripts.TestScripts -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
